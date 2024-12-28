@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: rgb(252, 221, 165);
+    min-height: 100vh;
+    border: 10px solid orangered;  
+    /* Mazy full container la border pahiije hann me ekde border defie kelo*/
+}
+
+.content{
+    max-width: 1200px;
+    margin: 0 auto;
+    /* content center sathi auto delo*/
+}
+
+.top-section{
+    margin: 80px;
+    display: flex;  /*Paticular section jya madhe jevdhe pan items asnar tye side by side yenar FLEX mule*/
+    justify-content: space-between; /* 2 parts madhe space*/
+    align-items:baseline;  /* text he botto madhe place karyla */
+}
+
+.top-section h1{
+    font-size: 35px; /*text size sathi */
+    font-weight: bold; /* he text bold karya */
+    color: black; /* text color sathi */
+    text-transform: uppercase;  /* text transform he upper case madhe karyla */
+}
+
+.top-section h4{
+    font-size: 18px;
+    text-align: end; /*text end la place karyla */
+}
+
+.img-container,img{
+    width: 300px;
+    height: 400px;
+    border-radius: 50%; /*immg la oval shape madhe add kary;a*/
+    overflow: hidden;
+} /*This is used to set he height and width of the img*/
+
+/********************************************************************************/
+
+.about-section{
+    margin-top: 50px;
+
+}
+
+.about-section h2{
+    font-size: 70px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.about-section p {
+    font-size: 15px;
+    line-height: 25px; /*For line height within the paragraph */
+    letter-spacing: 1.2px;
+    text-align: justify; /* text space equall sathi*/
+}
+
+.biography-section{
+    margin-top: 10px;
+    line-height: 25px;
+    letter-spacing: 1.2px;
+    text-align: justify;
+}
+
+.biography-heading{
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.biography-section h3{
+    margin-top: 8px;
+    font-size: 20px;
+}
+
+footer{
+    margin: 50px 0;
+}
+
+footer p {
+    text-align: end;
+}
